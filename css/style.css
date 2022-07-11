@@ -1,0 +1,75 @@
+
+
+
+::before , ::after {
+box-sizing : border-box;
+margin : 0 ; 
+padding: 0 ;
+
+
+}
+
+html{
+font-family: 'Poppins', sans-serif;
+}
+body
+{
+    
+    background : #f1f1f1 
+}
+
+body h1{
+    display : flex ; 
+    Justify-content : center ;
+    padding : 26px ;
+    font-size: 30px;
+    background-color: midnightblue; 
+    color : #f1f1f1
+  
+}
+h2 {
+    display: flex;
+    Justify-content: center;
+    padding: 30px;
+
+}
+div.pills2{
+    display : flex ;
+    justify-content :center ;
+    margin : 20px
+
+}
+
+.tab-content
+{
+    
+    display: flex;
+    justify-content: center;
+    margin : 50px ;
+    
+        
+} 
+p.temperature{
+    font-size : 22px;
+    padding : 20px ;
+}
+
+p.temperature span.temp{
+    font-weight: bold;
+    font-size : 26px ;
+    padding : 15px ; 
+    border : 0px solid black  ;
+    margin-left : 20px ;
+    background-color: midnightblue; 
+    color :#f1f1f1 ;
+    box-shadow: grey 3px 2px 2px 0px;
+}
+
+p.temperature span.date {
+    font-weight: bold;
+
+}
+p.temperature span.heur {
+    font-weight: bold;
+
+}
